@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel serve src/index.html",
-    "build": "parcel build src/index.html --experimental-scope-hoisting",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run test && parcel build src/index.html --experimental-scope-hoisting",
+    "test": "node tests/*.js"
   },
   "keywords": [],
   "author": "Pedro Gesta",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.19.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-plugin-react": "^7.19.0",
