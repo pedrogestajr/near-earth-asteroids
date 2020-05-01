@@ -1,0 +1,19 @@
+{
+  "test": ".*(.[Jj][Pp][Gg]|.[Gg][Ii][Ff]|.[Jj][Pp][Ee][Gg]|.[Pp][Nn][Gg]|.[Ss][Vv][Gg])",
+  "threshold": 1,
+  "concurrency": 2,
+  "gzip": {
+    "enabled": true,
+    "numiterations": 15,
+    "blocksplitting": true,
+    "blocksplittinglast": false,
+    "blocksplittingmax": 15,
+    "zlib": false,
+    "zlibLevel": 9,
+    "zlibMemLevel": 9
+  },
+  "brotli": {
+    "enabled": false
+  },
+  "compressOutput": false
+}
