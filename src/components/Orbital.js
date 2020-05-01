@@ -19,7 +19,7 @@ export default function Orbital({
       </p>
       <Passing data={close_approach_data} />
       <p className="more">
-        <a href={nasa_jpl_url} target="_blank">
+        <a href={nasa_jpl_url} target="_blank" rel="noopener noreferrer">
           Find out more
         </a>
       </p>
