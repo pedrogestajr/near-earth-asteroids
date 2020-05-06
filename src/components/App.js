@@ -17,7 +17,7 @@ export default function App() {
   const data = useAsync(fetchData, []);
 
   if (data.loading) {
-    document.title = 'Counting asteroids near Earth...';
+    document.title = 'Counting asteroids...';
 
     return (
       <p>
