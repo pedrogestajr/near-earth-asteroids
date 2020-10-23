@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "MDN project to learn about client-side development tools",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/pedrogestajr/near-earth-asteroids"
+  },
   "scripts": {
     "dev": "parcel serve src/index.html",
     "build": "npm run test && parcel build src/index.html --experimental-scope-hoisting",
@@ -24,6 +27,7 @@
   "dependencies": {
     "date-fns": "^2.12.0",
     "format-number": "^3.0.0",
+    "node-forge": "^0.10.0",
     "react": "^16.13.1",
     "react-async-hook": "^3.6.1",
     "react-dom": "^16.13.1"
